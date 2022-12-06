@@ -11,6 +11,6 @@ public class ProductController {
     @PostMapping("/add")
     public String ProductAdd()
     {
-
+        return "product the add";
     }
 }
